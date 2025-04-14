@@ -1,0 +1,6 @@
+mlflow
+pandas
+scikit-learn
+numpy<1.24
+pandas-ta
+optuna  

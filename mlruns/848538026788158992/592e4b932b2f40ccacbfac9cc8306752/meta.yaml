@@ -1,0 +1,15 @@
+artifact_uri: /home/huatansang/Documents/stock-price-prediction/Lab01/artifacts/592e4b932b2f40ccacbfac9cc8306752/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '848538026788158992'
+lifecycle_stage: active
+run_id: 592e4b932b2f40ccacbfac9cc8306752
+run_name: train_model_and_tuning
+run_uuid: 592e4b932b2f40ccacbfac9cc8306752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744647876601
+status: 1
+tags: []
+user_id: huatansang
