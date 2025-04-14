@@ -1,6 +1,4 @@
-mlflow
-pandas
-scikit-learn
+mflow==2.21.2
 numpy<1.24
-pandas-ta
-optuna  
+pandas-ta==0.3.14b
+optuna==4.3.0

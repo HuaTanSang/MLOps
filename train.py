@@ -72,6 +72,7 @@ if __name__ == '__main__':
             'Data_Description': 'Dữ liệu lịch sử giá Bitcoin đã được biến đổi, với cột Target có giá trị 0 (nên bán) hoặc 1 (nên mua). Cột Target được tính dựa trên hiệu số giá đóng cửa của phiên tiếp theo trừ phiên trước đó',
             'Data_Columns': list(total_df.columns),
             'Data_Size': len(total_df),
+            'Data_Collection_Date': f'{total_df.index.min()} to {total_df.index.max()}',
             'Data_Shape_with_Target': total_df.shape,
         }
         mlflow.log_params(dataset_info)
@@ -83,7 +84,7 @@ if __name__ == '__main__':
 
         # Tối ưu hóa với Optuna
         study = optuna.create_study(direction="maximize")
-        study.optimize(lambda trial: objective(trial, train_df, val_df,experiment_id), n_trials=50)  # Dùng val_df
+        study.optimize(lambda trial: objective(trial, train_df, val_df,experiment_id), n_trials=5)  # Dùng val_df
 
         # Log kết quả tốt nhất
         best_params = study.best_params
