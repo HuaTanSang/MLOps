@@ -55,12 +55,13 @@ Sử dụng Optuna
 - MLflow UI 
 ![MLflow UI](image/MLflowUI.png)
 
+- Logging 
+![Logging](image/Logging.png)
+
 ## 4. Thành viên:    
 - 22521239: Hứa Tấn Sang
 - 22520337: Phạm Đình Anh Duy
 - 22520844: Nguyễn Đức Minh Mẫn
 - 22520809: Hoàng Minh Long 
 
-- Logging 
-![Logging](image/Logging.png)
 
